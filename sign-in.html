@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign-in.css">
+    <title>CoSchedule Accounts</title>
+</head>
+<body>
+    <div class="accountContainer">
+        <div class="signinWrapper">
+            <div class="logoWrapper">
+                <img src="https://accounts.coschedule.com/img/cos-logo-horz.svg" alt="">
+            </div>
+            <form onsubmit="signin(event)" action="" id="myForm">
+                <label for="">Email Address</label>
+                <input type="text" id="email" class="input-field input-email">
+                <label for="">password</label>
+                <input type="password" id="password" class="input-field input-password">
+                <div class="para" id="error-msg"></div>
+                <button>Sign In</button>
+            </form>
+                <div class="footerLink">
+                    <a href="./sign-up.html" id="sign-up-link" class="links">Need an account?</a>
+                    <span>|</span>
+                    <a href=""  class="links">Forgot your password?</a>
+                </div>
+        </div>
+    </div>
+    <script src="../js-files/sign-in.js"></script>
+</body>
+</html>
